@@ -3,6 +3,7 @@ import calc
 
 
 class TestCase(unittest.TestCase):
+    # one success and one fail for each 
     def test_add(self):
         self.assertEqual(calc.addition(6,2), 8)
         self.assertEqual(calc.addition(6,2), 4)
